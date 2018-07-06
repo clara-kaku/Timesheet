@@ -4,6 +4,7 @@
 ![image](https://img.shields.io/badge/deploy-Heroku-79589F.svg)
 ![image](https://img.shields.io/badge/Angular%20CLI-6.0.8-red.svg)
 ![image](https://img.shields.io/badge/Bootstrap-4.1.1-563d7c.svg)
+![image](https://img.shields.io/badge/UI-Responsive-blue.svg)
 
 This project uses Bootstrap 4, Angular and Chart.js.
 Working demo:  [Click here](https://apontamento-horas.herokuapp.com/login.html)
