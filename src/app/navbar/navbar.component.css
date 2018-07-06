@@ -1,0 +1,12 @@
+.navbar {
+  background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+}
+
+.img-space {
+    margin-right: 0.5rem;
+}
+
+.icon-option {
+  display: flex;
+  align-items:center;
+}
