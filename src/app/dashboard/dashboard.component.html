@@ -2,18 +2,18 @@
    <p class="display-4 text-title">Projects Overview</p>
 
    <div class="row mt-4 mb-4">
-       <div class="col-6">
-           <div class="chart-card p-2 rounded text-center">
-               <h5 class="text-title">Users per Project</h5>
-               <canvas id="donut"></canvas>
-           </div>
-       </div>
-       <div class="col-6">
-           <div class="chart-card p-2 rounded text-center">
-               <h5 class="text-title">Project Progress</h5>
-               <canvas id="bar"></canvas>
-           </div>
-       </div>
+        <div class="col-12 col-sm-12 col-md-12 mb-3 col-lg-6 col-xl-6">
+            <div class="chart-card p-2 rounded text-center">
+                <h5 class="text-title">Users per Project</h5>
+                <canvas id="donut"></canvas>
+            </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 mb-3 col-lg-6 col-xl-6">
+            <div class="chart-card p-2 rounded text-center">
+                <h5 class="text-title">Project Progress</h5>
+                <canvas id="bar"></canvas>
+            </div>
+        </div>
     </div>
 
     <div class="card-deck">
@@ -23,10 +23,10 @@
 
            <small><p>Members</p></small>
            <div class="row justify-content-md-center mx-auto p-1 mb-2">
-             <div class="col"><img src="assets/img/user_01.svg" class="rounded-circle avatar mx-auto d-block" width="40" height="40"></div>
-             <div class="col"><img src="assets/img/user_03.svg" class="rounded-circle avatar mx-auto d-block" width="40" height="40"></div>
-             <div class="col"><img src="assets/img/user_05.svg" class="rounded-circle avatar mx-auto d-block" width="40" height="40"></div>
-             <div class="col"><img src="assets/img/user_07.svg" class="rounded-circle avatar mx-auto d-block" width="40" height="40"></div>
+             <div class="col-3 col-sm-12 col-md-12 mb-2 col-lg-3 col-xl-3"><img src="assets/img/user_01.svg" class="rounded-circle avatar mx-auto d-block" width="40" height="40"></div>
+             <div class="col-3 col-sm-12 col-md-12 mb-2 col-lg-3 col-xl-3"><img src="assets/img/user_03.svg" class="rounded-circle avatar mx-auto d-block" width="40" height="40"></div>
+             <div class="col-3 col-sm-12 col-md-12 mb-2 col-lg-3 col-xl-3"><img src="assets/img/user_05.svg" class="rounded-circle avatar mx-auto d-block" width="40" height="40"></div>
+             <div class="col-3 col-sm-12 col-md-12 mb-2 col-lg-3 col-xl-3"><img src="assets/img/user_07.svg" class="rounded-circle avatar mx-auto d-block" width="40" height="40"></div>
            </div>
          </div>
 
@@ -46,8 +46,8 @@
            <h5 class="card-title">PROJECT 2</h5>
            <small><p>Members</p></small>
            <div class="row justify-content-md-center mx-auto p-1 mb-2">
-             <div class="col"><img src="assets/img/user_02.svg" class="rounded-circle avatar mx-auto d-block" width="40" height="40"></div>
-             <div class="col"><img src="assets/img/user_04.svg" class="rounded-circle avatar mx-auto d-block" width="40" height="40"></div>
+             <div class="col-6 col-sm-12 col-md-12 mb-2 col-lg-6 col-xl-6"><img src="assets/img/user_02.svg" class="rounded-circle avatar mx-auto d-block" width="40" height="40"></div>
+             <div class="col-6 col-sm-12 col-md-12 mb-2 col-lg-6 col-xl-6"><img src="assets/img/user_04.svg" class="rounded-circle avatar mx-auto d-block" width="40" height="40"></div>
            </div>
          </div>
          <div class="progress tile-progressbar">
@@ -65,9 +65,9 @@
            <h5 class="card-title">PROJECT 3</h5>
            <small><p>Members</p></small>
            <div class="row justify-content-md-center mx-auto p-1 mb-2">
-             <div class="col"><img src="assets/img/user_06.svg" class="rounded-circle avatar mx-auto d-block" width="40" height="40"></div>
-             <div class="col"><img src="assets/img/user_02.svg" class="rounded-circle avatar mx-auto d-block" width="40" height="40"></div>
-             <div class="col"><img src="assets/img/user_01.svg" class="rounded-circle avatar mx-auto d-block" width="40" height="40"></div>
+             <div class="col-4 col-sm-12 col-md-4 mb-2 col-lg-4 col-xl-4"><img src="assets/img/user_06.svg" class="rounded-circle avatar mx-auto d-block" width="40" height="40"></div>
+             <div class="col-4 col-sm-12 col-md-4 mb-2 col-lg-4 col-xl-4"><img src="assets/img/user_02.svg" class="rounded-circle avatar mx-auto d-block" width="40" height="40"></div>
+             <div class="col-4 col-sm-12 col-md-4 mb-2 col-lg-4 col-xl-4"><img src="assets/img/user_01.svg" class="rounded-circle avatar mx-auto d-block" width="40" height="40"></div>
            </div>
          </div>
          <div class="progress tile-progressbar">
@@ -88,13 +88,16 @@
 
   <div class="container table-wrapper mb-4">
     <div class="container p-1">
-      <div class="row float-right pt-2 px-3">
-          <div class="form-label-group">
-              <input type="text" id="inputSearch" class="form-control form-transparent-input" placeholder="Search" required autofocus>
-              <label for="inputSearch">Search</label>
-           </div>
-           <img src="assets/img/search.svg">
-      </div>
+       <div class="row float-lg-right pt-2 px-3">
+         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <div class="input-group mb-3 mt-3">
+                <input type="text" class="form-control" placeholder="Search">
+                <div class="input-group-append">
+                  <button class="btn" type="button"><img src="assets/img/search.svg"></button>
+                </div>
+            </div>
+          </div>
+       </div>
     </div>
     <div class="container p-1">
       <table class="table table-striped text-center text-title">
@@ -155,8 +158,8 @@
        </table>
      </div>
      <div class="row align-middle p-1">
-       <div class="col-6 float-left"><span class="align-middle text-title">Showing <b>4</b> out of <b>7</b> entries</span></div>
-       <div class="col-6 float-right">
+       <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 float-left"><span class="align-middle text-title">Showing <b>4</b> out of <b>7</b> entries</span></div>
+       <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 float-right">
          <div class="clearfix">
            <ul class="pagination float-right rounded">
              <li class="page-item"><a class="page-link" href="#"><small>&#10094;</small></a></li>
