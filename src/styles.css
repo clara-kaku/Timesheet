@@ -21,9 +21,6 @@ body {
 .table-wrapper {
   background: #FFF;
   border-radius: 3px;
-}
-
-.table-wrapper {
   box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
 }
 
@@ -35,6 +32,7 @@ body {
   border: none;
   border-bottom: 1px solid #474747;
 }
+
 .input-group-append button {
   border: none;
   background: transparent;
@@ -124,7 +122,7 @@ body {
 .form-transparent-input {
   border-radius: 0px;
   border: none;
-  border-bottom: 1px solid #474747; /*#347abe;*/
+  border-bottom: 1px solid #474747;
   background-color:rgba(0,0,0,0) !important;
   color: #474747;
 }
