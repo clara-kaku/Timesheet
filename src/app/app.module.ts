@@ -30,6 +30,10 @@ const appRoutes: Routes = [
   {
     path: 'login',
     component: LoginComponent
+  },
+  {
+    path: 'navbar',
+    component: NavbarComponent
   }
 ];
 
