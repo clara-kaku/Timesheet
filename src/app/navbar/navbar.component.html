@@ -5,25 +5,30 @@
  <div class="collapse navbar-collapse" id="navbarNav">
    <ul class="navbar-nav ml-auto w-100 justify-content-end">
      <li class="nav-item">
-       <a class="nav-link icon-option" href="dashboard.html">
+       <a class="nav-link icon-option" routerLink="/dashboard" routerLinkActive="active">
          <img src="assets/img/dashboard.svg" class="img-space" width="20" height="20">Dashboard</a>
      </li>
      <li class="nav-item">
-       <a class="nav-link icon-option" href="project.html">
+       <a class="nav-link icon-option" routerLink="/project" routerLinkActive="active">
          <img src="assets/img/project.svg" class="img-space" width="20" height="20">Projects</a>
      </li>
      <li class="nav-item">
-       <a class="nav-link icon-option" href="user.html">
+       <a class="nav-link icon-option" routerLink="/user" routerLinkActive="active">
          <img src="assets/img/users.svg" class="img-space" width="20" height="20">Users</a>
      </li>
      <li class="nav-item">
-       <a class="nav-link icon-option" href="login.html">
-         <img src="assets/img/logout.svg" class="img-space" width="20" height="20">Log out</a>
+       <a class="nav-link icon-option" routerLink="/timesheet" routerLinkActive="active">
+         <img src="assets/img/timesheet.svg" class="img-space" width="20" height="20">Timesheet</a>
      </li>
      <li class="nav-item">
-       <a class="nav-link icon-option" href="#">
+       <a class="nav-link icon-option" routerLink="/login" routerLinkActive="active">
+         <img src="assets/img/logout.svg" class="img-space" width="20" height="20">Logout</a>
+     </li>
+     <li class="nav-item">
+       <a class="nav-link icon-option">
          <img src="assets/img/user.svg" class="img-space" width="25" height="25">Admin</a>
      </li>
    </ul>
  </div>
 </nav>
+<router-outlet></router-outlet>
