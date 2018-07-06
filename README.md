@@ -6,11 +6,13 @@
 ![image](https://img.shields.io/badge/Bootstrap-4.1.1-563d7c.svg)
 ![image](https://img.shields.io/badge/UI-Responsive-blue.svg)
 
-This project uses Bootstrap 4, Angular and Chart.js.
+This project uses Bootstrap 4, Angular and Chart.js. 
 Working demo:  [Click here](https://apontamento-horas.herokuapp.com/login.html)
 
 To navigate through the demo, click the "Log me in" button (you don't need to fill anything).
-Note: The demo is only a static html/css deployed on heroku. If you wish to see the full app with angular, please download or clone this project.
+Note: The demo is only a static html/css deployed on heroku. If you wish to see the full app with angular, please download or clone this project. 
+
+Testing responsive layout: Resize your browser screen to see how the site changes. 
 
 ## Development server
 
